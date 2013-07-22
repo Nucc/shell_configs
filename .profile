@@ -1,7 +1,7 @@
 CLASSPATH=/Library/Java/Extensions:$CLASSPATH
 export CLASSPATH
 
-export GEM_HOME="/Users/nucc/.gem"
+export GEM_HOME="$HOME/.gem"
 
 test -r /sw/bin/init.sh && . /sw/bin/init.sh
 

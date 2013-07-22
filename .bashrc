@@ -12,10 +12,10 @@ function ql()
   qlmanage -p "$1" 1>/dev/null
 }
 
-export PATH=/Users/developer/bin:$PATH
+export PATH=$HOME/bin:$PATH
 
-[[ -s "/Users/developer/.rvm/scripts/rvm" ]] && source "/Users/developer/.rvm/scripts/rvm"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-export PATH=$PATH:/Users/developer/Downloads/play-2.0:/Users/developer/Downloads/scala-2.9.1-1/bin/
+export PATH=$PATH:$HOME/Downloads/play-2.0:$HOME/Downloads/scala-2.9.1-1/bin/
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

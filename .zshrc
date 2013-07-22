@@ -48,7 +48,7 @@ function ql()
 
 export PATH=$HOME/bin:$PATH
 
-[[ -s "/Users/nucc/.rvm/scripts/rvm" ]] && source "/Users/nucc/.rvm/scripts/rvm"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 source $HOME/.profile
